@@ -11,7 +11,7 @@
         $conn -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
     }catch(PDOException $e){
-        echo "<script> alert('Faild To Connect with Database')</script>";
+        echo "<script> alert('Faild To Connect with Database') </script>";
     }
 
 ?>
